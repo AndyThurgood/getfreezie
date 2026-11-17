@@ -124,6 +124,7 @@ section { padding: 80px 0; }
 .site-footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; }
 .site-footer nav { display: flex; gap: 18px; flex-wrap: wrap; }
 .site-footer a { color: var(--text-2); }
+.site-footer span { max-width: 620px; font-size: 14px; line-height: 1.5; }
 
 @media (max-width: 900px) {
   .hero-inner, .plus { grid-template-columns: minmax(0, 1fr); }
